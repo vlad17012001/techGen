@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>techGen</title>
+    <link rel="icon" type="IMG/svg" href="IMG/logo_3.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="site-header">
+      <div class="container">
+        <div class="navbar">
+          <a class="brand" href="/">
+            <img src="IMG/svg.svg" alt="TechGen" class="brand__logo"/>
+          </a>
+
+          <nav class="nav-links" aria-label="Primary">
+            <a href="#">Курси</a>
+            <a href="#">Події</a>
+            <a href="#">Відгуки</a>
+            <a href="#">Про нас</a>
+          </nav>
+
+          <div class="nav-right">
+            <a class="btn-cta" href="#">Приєднатися</a>
+          </div>
+
+          <!-- бургер (видно лише на мобілках) -->
+          <button class="nav__burger" aria-label="Меню" aria-expanded="false" aria-controls="mobilePanel">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+        <!-- мобільне меню в тому самому контейнері -->
+        <section id="mobilePanel" class="nav__panel" aria-label="Мобільне меню" hidden>
+          <div class="panel__meta">
+            <span class="panel__flag">
+              <img src="IMG/ua.svg" alt="Ukraine Flag">
+              <span class="panel__flag-text">UA</span>
+            </span>
+            <a class="panel__phone" href="tel:+380734463350">
+              <span class="panel__phone-ico" aria-hidden="true">📞</span>
+              +380 73 446 33 50
+            </a>
+          </div>
+
+          <div class="panel__divider"></div>
+
+          <a class="panel__item" href="#">Вартість</a>
+          <a class="panel__item" href="#">Відгуки</a>
+          <a class="panel__item" href="#">Про нас</a>
+          
+
+          <div class="panel__divider"></div>
+        
+            <div class="panel__cta">
+              <a class="btn-cta" href="#">Приєднатися</a>
+            </div>
+          <div class="panel__divider"></div>
+            <div class="panel__social">
+              <a class="icon-btn" href="#" aria-label="Facebook">
+                <img src="IMG/tiktok.svg" alt="Facebook">
+              </a>
+              <a class="icon-btn" href="#" aria-label="Instagram">
+                <img src="IMG/instagram.svg" alt="Instagram">
+              </a>
+              <a class="icon-btn" href="#" aria-label="Telegram">
+                <img src="IMG/telegram.svg" alt="Telegram">
+              </a>
+              <a class="icon-btn" href="#" aria-label="YouTube">
+                <img src="IMG/youtube.svg" alt="YouTube">
+              </a>
+            </div>
+        </section>
+      </div>
+    </header>
+    
+    <div class="nav__overlay" hidden></div>
+    
+    
+    
+    
+    
+    
+    <script src="JS/main.js"></script>
+</body>
+</html>
